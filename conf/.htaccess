@@ -1,0 +1,11 @@
+# Extra Security Headers
+<IfModule mod_headers.c>
+Header set X-XSS-Protection "1; mode=block"
+Header always append X-Frame-Options SAMEORIGIN
+Header set X-Content-Type-Options nosniff
+Header set Strict-Transport-Security max-age=17280000
+Header set Referrer-Policy no-referrer
+Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+Header set Content-Security-Policy "default-src 'self';"
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
