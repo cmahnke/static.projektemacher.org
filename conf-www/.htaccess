@@ -1,0 +1,36 @@
+<If "req('Host') == 'www.projektemacher.org'">
+    Redirect "/" "http://projektemacher.org/"
+</If>
+<ElseIf "req('Host') == 'www.xn--blaufutlpel-06a41a.de'">
+    Redirect "/" "http://xn--blaufusstlpel-qmb.de/"
+</ElseIf>
+<ElseIf "req('Host') == 'www.xn--blaufusstlpel-qmb.de'">
+    Redirect "/" "http://xn--blaufusstlpel-qmb.de/"
+</ElseIf>
+<ElseIf "req('Host') == 'xn--blaufutlpel-06a41a.de'">
+    Redirect "/" "http://xn--blaufusstlpel-qmb.de/"
+</ElseIf>
+<ElseIf "req('Host') == 'www.xn--krhenbeisser-hcb.de'">
+    Redirect "/" "http://xn--krhenbeisser-hcb.de/"
+</ElseIf>
+<ElseIf "req('Host') == 'www.xn--krhenbeier-d4a7c.de'">
+    Redirect "/" "http://xn--krhenbeisser-hcb.de/"
+</ElseIf>
+<ElseIf "req('Host') == 'xn--krhenbeier-d4a7c.de'">
+    Redirect "/" "http://xn--krhenbeisser-hcb.de/"
+</ElseIf>
+<ElseIf "req('Host') == 'cmahnke.net'">
+    Redirect "/" "http://christianmahnke.de/"
+</ElseIf>
+<ElseIf "req('Host') == 'www.cmahnke.net'">
+    Redirect "/" "http://christianmahnke.de/"
+</ElseIf>
+<ElseIf "req('Host') == 'www.christianmahnke.de'">
+    Redirect "/" "http://christianmahnke.de/"
+</ElseIf>
+<ElseIf "req('Host') == 'www.briefsteller.de'">
+    Redirect "/" "http://briefsteller.de/"
+</ElseIf>
+<ElseIf "req('Host') == 'www.hortenkachel.de'">
+    Redirect "/" "http://hortenkachel.de/"
+</ElseIf>

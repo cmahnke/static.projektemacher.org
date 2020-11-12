@@ -9,3 +9,4 @@ Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment
 Header set Content-Security-Policy "default-src 'self';"
 Header set Access-Control-Allow-Origin "*"
 </IfModule>
+RedirectMatch 301 ^/$ https://projektemacher.org
